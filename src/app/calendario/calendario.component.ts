@@ -26,4 +26,11 @@ export class CalendarioComponent implements OnInit {
     };
   }
 
+  clickButton(event:any){
+    console.log(event);
+  }
+
+  dayClick(event:any){
+    console.log(event);
+  }
 }
